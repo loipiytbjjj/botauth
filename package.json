@@ -1,7 +1,15 @@
 {
+  "name": "botauth",
+  "version": "1.0.0",
+  "description": "Bot Discord avec OAuth2 et site Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "discord.js": "^14.19.3",
     "express": "^5.1.0",
-    "fs": "^0.0.1-security"
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.7"
   }
 }
